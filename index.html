@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Style -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+
+		<title>Memory Game</title>
+	</head>
+	<body>
+		<section class="panel">
+			<div class="moves">
+				<p>Moves: <span id="resultMove">0</span></p>
+			</div>
+
+			<div class="refresh">
+				<button class="refresh-button">
+					<i class="fas fa-redo animate__animated"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="memory-game">
+			<!-- Apple -->
+			<div class="memory-card animate__animated" data-framework="apple">
+				<img src="img/apple.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<div class="memory-card animate__animated" data-framework="apple">
+				<img src="img/apple.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<!-- Cupcake -->
+			<div class="memory-card animate__animated" data-framework="cupcake">
+				<img src="img/cupcake.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<div class="memory-card animate__animated" data-framework="cupcake">
+				<img src="img/cupcake.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<!-- Meat -->
+			<div class="memory-card animate__animated" data-framework="meat">
+				<img src="img/meat.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<div class="memory-card animate__animated" data-framework="meat">
+				<img src="img/meat.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<!-- Pizza -->
+			<div class="memory-card animate__animated" data-framework="pizza">
+				<img src="img/pizza.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<div class="memory-card animate__animated" data-framework="pizza">
+				<img src="img/pizza.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<!-- Ice Cream -->
+			<div class="memory-card animate__animated" data-framework="icecream">
+				<img src="img/icecream.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<div class="memory-card animate__animated" data-framework="icecream">
+				<img src="img/icecream.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<!-- Fish  -->
+			<div class="memory-card animate__animated" data-framework="fish">
+				<img src="img/fish.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+
+			<div class="memory-card animate__animated" data-framework="fish">
+				<img src="img/fish.png" alt="" class="front-face" />
+				<img src="img/question.png" alt="" class="back-face" />
+			</div>
+		</section>
+		<!-- Script -->
+		<script src="app.js"></script>
+	</body>
+	<!-- <footer>
+		<div>
+			Icons made by
+			<a href="https://www.flaticon.com/authors/smashicons" title="Smashicons"
+				>Smashicons</a
+			>
+			from
+			<a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+		</div>
+		<div>
+			Icons made by
+			<a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+				>Freepik</a
+			>
+			from
+			<a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+		</div>
+	</footer> -->
+</html>
